@@ -13,5 +13,5 @@ stock_list = {
 
 stock = input("Enter stock symbol\n:")
 stock = stock.upper()
-ans = stock_list.get(stock, "Ticker symbol not found")
-print(ans)
+ansIs = stock_list.get(stock, "Ticker symbol not found")
+print(ansIs)
